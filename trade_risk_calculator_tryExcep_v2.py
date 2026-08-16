@@ -1,7 +1,7 @@
 
 try:
     account_size = int(input("Enter Account Size: "))
-    risk_percentage = int(input("Enter Risk Percentage: "))
+    risk_percentage = float(input("Enter Risk Percentage: "))
 
     # Validate that both values are greater than zero
     if account_size <= 0 or risk_percentage <= 0:
