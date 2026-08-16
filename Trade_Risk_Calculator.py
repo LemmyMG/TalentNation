@@ -1,4 +1,4 @@
-# Trade Risk Calculator — Basic Python Concepts
+# Trade Risk Calculator —
 
 account_size = 1000
 risk_percentage = 2
