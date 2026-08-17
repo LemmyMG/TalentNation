@@ -15,6 +15,7 @@ try:
         print("\n========= Risk Summary ========")
         print(f"Account Size: ${account_size}")
         print(f"Risk Percentage: {risk_percentage}%")
+        # Format risk amount to two decimal places
         print(f"Risk Amount: ${risk_amount:.2f}")
 
         # Check whether the selected risk is within the 2% limit
