@@ -2,7 +2,6 @@
 # instead of hard-coding 2 in the validation
 
 max_risk = 2
-while True:
     try:
         account_size = int(input("Enter Account Size: "))
         risk_percentage = float(input("Enter Risk Percentage: "))
