@@ -1,3 +1,7 @@
+# Create a variable that represents the maximum allowed risk
+# instead of hard-coding 2 in the validation
+
+max_risk = 2
 
 try:
     account_size = int(input("Enter Account Size: "))
@@ -7,8 +11,8 @@ try:
     if account_size <= 0 or risk_percentage <= 0:
         print("Invalid number. Values must be greater than 0")
     # Check whether the selected risk is within the 2% limit
-    elif risk_percentage > 2:
-        print("Invalid risk. Maximum allowed risk is 2%.")
+    elif risk_percentage > max_risk:
+        print(f"Invalid risk. Maximum allowed risk is {max_risk}%.")
     else:
         # Calculate the dollar amount being risked
         risk_amount = account_size * risk_percentage / 100
