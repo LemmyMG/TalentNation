@@ -23,6 +23,7 @@ while True:
             print(f"Risk Percentage: {risk_percentage}%")
             # Format risk amount to two decimal places
             print(f"Risk Amount: ${risk_amount:.2f}")
+            
         # Normalize the user's response by removing surrounding spaces and converting it to lowercase,
         # so inputs like " NO ", "No", and "NO" are treated consistently.    
         answer = input("\nDo you want perform another trade?:\n")
